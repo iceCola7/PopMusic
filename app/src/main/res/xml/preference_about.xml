@@ -14,14 +14,14 @@
             android:title="给我点赞" />
     </PreferenceCategory>
     <PreferenceCategory android:title="关于作者">
-        <Preference
-            android:key="weibo"
-            android:summary="@string/about_weibo"
-            android:title="微博" />
-        <Preference
-            android:key="jianshu"
-            android:summary="@string/about_jianshu"
-            android:title="简书" />
+        <!--<Preference-->
+            <!--android:key="weibo"-->
+            <!--android:summary="@string/about_weibo"-->
+            <!--android:title="微博" />-->
+        <!--<Preference-->
+            <!--android:key="jianshu"-->
+            <!--android:summary="@string/about_jianshu"-->
+            <!--android:title="简书" />-->
         <Preference
             android:key="github"
             android:summary="@string/about_github"
