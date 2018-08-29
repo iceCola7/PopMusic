@@ -35,8 +35,8 @@ public class AboutActivity extends BaseActivity {
             mVersion = findPreference("version");
             mShare = findPreference("share");
             mStar = findPreference("star");
-            mWeibo = findPreference("weibo");
-            mJianshu = findPreference("jianshu");
+//            mWeibo = findPreference("weibo");
+//            mJianshu = findPreference("jianshu");
             mGithub = findPreference("github");
 
             mVersion.setSummary("v " + BuildConfig.VERSION_NAME);
@@ -46,8 +46,8 @@ public class AboutActivity extends BaseActivity {
         private void setListener() {
             mShare.setOnPreferenceClickListener(this);
             mStar.setOnPreferenceClickListener(this);
-            mWeibo.setOnPreferenceClickListener(this);
-            mJianshu.setOnPreferenceClickListener(this);
+//            mWeibo.setOnPreferenceClickListener(this);
+//            mJianshu.setOnPreferenceClickListener(this);
             mGithub.setOnPreferenceClickListener(this);
         }
 
